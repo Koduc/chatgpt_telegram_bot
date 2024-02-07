@@ -17,6 +17,7 @@ services:
     restart: always
     volumes:
       - ./config:/code/config
+      - ./bot:/code/bot
     build:
       context: "."
       dockerfile: Dockerfile
